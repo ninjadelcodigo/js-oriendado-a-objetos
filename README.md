@@ -1,7 +1,7 @@
-## JavaScript Orientado a Objetos #3 - Actualizando propiedades
+## JavaScript Orientado a Objetos #4 - Clases
 
-* usar encapsulación en objeto
-* cambiar propiedades de objeto
+* no es eficiente repetir objeto para diferentes usuarios
+* sintax emula clases de lenguajes con clases como Java (JS no tiene clases)
 * añadir métodos a objeto
 * invocar métodos de objeto creado
 

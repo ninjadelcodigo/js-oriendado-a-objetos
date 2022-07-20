@@ -1,32 +1,23 @@
 
-// usar encapsulación en objeto
-let primerUsuario = {
-    email: 'ryu@ninjasdelcodigo.pe',
-    nombre: 'Ryu',
-    login () {
-        console.log(this.email, 'ha iniciado su sesión');
-    },
-    logout () {
-        console.log(this.email, 'ha cerrado su sesión');
+// definición de una clase
+// crear clase de usuario
+class Usuario {
+    constructor(email, nombre) {
+        this.email =  email;
+        this.nombre = nombre;
     }
 }
 
-// cambiar propiedades de objeto
-// primerUsuario.nombre = 'Yoshi';
-// console.log(primerUsuario);
+// crear dos objetos de tipo Usuario
+let primerUsuario = new Usuario('ryu@ninjasdelcodigo.pe', 'Ryu');
+let segundoUsuario = new Usuario('yoshi@ninjasdelcodigo.pe', 'Yoshi');
 
-// primerUsuario['nombre'] = 'Mario';
-// console.log(primerUsuario);
+// mostrar dos objetos de usuario a consola
+console.log(primerUsuario);
+console.log(segundoUsuario);
 
-// añadir propiedades de objeto
-primerUsuario.edad = 33;
-
-// añadir métodos a objeto
-primerUsuario.logInfo = function(){
-    console.log(this.nombre, this.edad, this.email);
-};
-
-// usar métodos de objeto
-primerUsuario.logInfo();
-primerUsuario.login();
-primerUsuario.logout();
+// la palabra clave 'new' (nuevo)
+// - crea un nuevo objeto vacio
+// - setea el valor de 'this' a ser el del nuevo objeto vacio
+// - llama al método 'constructor'
+ 
