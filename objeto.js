@@ -40,3 +40,5 @@ console.log(usuarios);
 
 administrador.eliminarUsuario(segundoUsuario);
 console.log(usuarios);
+
+primerUsuario.eliminarUsuario(administrador);  // error en console
