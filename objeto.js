@@ -23,3 +23,4 @@ segundoUsuario.login();
 segundoUsuario.logout();
 primerUsuario.logout();
  
+// mostrar métodos en consola tipeando objeto
