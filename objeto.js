@@ -4,12 +4,20 @@ class Usuario {
     constructor(email, nombre) {
         this.email =  email;
         this.nombre = nombre;
+        this.puntaje = 0;
     }
     login() {
         console.log(this.email, 'acabe de iniciar sesión');
+        return this;
     }
     logout() {
         console.log(this.email, 'acabe de cerrar sesión');
+        return this;
+    }
+    actualizarPuntaje() {
+        this.puntaje++;
+        console.log('El puntaje actual es ahora', this.puntaje);
+        return this;
     }
 }
 
@@ -17,10 +25,5 @@ class Usuario {
 let primerUsuario = new Usuario('ryu@ninjasdelcodigo.pe', 'Ryu');
 let segundoUsuario = new Usuario('yoshi@ninjasdelcodigo.pe', 'Yoshi');
 
-// invocar métodos de clase
-primerUsuario.login();
-segundoUsuario.login();
-segundoUsuario.logout();
-primerUsuario.logout();
- 
-// mostrar métodos en consola tipeando objeto
+// usar invocación de métodos en cadena
+primerUsuario.login().actualizarPuntaje().actualizarPuntaje().logout();
