@@ -21,9 +21,22 @@ class Usuario {
     }
 }
 
+class Admin extends Usuario {
+    eliminarUsuario(usuario) {
+        usuarios = usuarios.filter(u => {
+            return u.email != usuario.email;  // filter(...) elimina el elemento del array cuando el filtro es falso
+        });
+        return this;
+    }
+ }
+
 // crear dos objetos de tipo Usuario
 let primerUsuario = new Usuario('ryu@ninjasdelcodigo.pe', 'Ryu');
 let segundoUsuario = new Usuario('yoshi@ninjasdelcodigo.pe', 'Yoshi');
+let administrador = new Admin('saun@ninjasdelcodigo.pe', 'Saun');
 
-// usar invocación de métodos en cadena
-primerUsuario.login().actualizarPuntaje().actualizarPuntaje().logout();
+let usuarios = [primerUsuario, segundoUsuario];
+console.log(usuarios);
+
+administrador.eliminarUsuario(segundoUsuario);
+console.log(usuarios);
