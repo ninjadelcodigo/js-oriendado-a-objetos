@@ -1,5 +1,5 @@
 
-// usar encansulacion
+// usar encapsulación de variable
 let primerUsuario = {
     email: 'ryu@ninjasdelcodigo.pe',
     nombre: 'Ryu',
@@ -11,9 +11,9 @@ let primerUsuario = {
     }
 }
 
-// invocar propiedades de objeto primerUsuario
+// invocar propiedades de objeto creado
 console.log(primerUsuario.email);
 
-// invocar metododos de objeto primerUsuario
+// invocar métodos de objeto creado
 primerUsuario.login();
 primerUsuario.logout();
