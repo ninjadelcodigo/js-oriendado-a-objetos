@@ -1,4 +1,4 @@
-## JavaScript Orientado a Objetos
+## JavaScript Orientado a Objetos - Lección #2
 
 Todos los archivos traducidos del canal original de ‘Net Ninja’.  Contienen las 6 lecciones del tutorial 'Object Oriented JavaScript Tutorial’.
 
