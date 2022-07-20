@@ -1,5 +1,5 @@
 
-// usar encapsulación de variable
+// usar encapsulación en objeto
 let primerUsuario = {
     email: 'ryu@ninjasdelcodigo.pe',
     nombre: 'Ryu',
@@ -11,9 +11,22 @@ let primerUsuario = {
     }
 }
 
-// invocar propiedades de objeto creado
-console.log(primerUsuario.email);
+// cambiar propiedades de objeto
+// primerUsuario.nombre = 'Yoshi';
+// console.log(primerUsuario);
 
-// invocar métodos de objeto creado
+// primerUsuario['nombre'] = 'Mario';
+// console.log(primerUsuario);
+
+// añadir propiedades de objeto
+primerUsuario.edad = 33;
+
+// añadir métodos a objeto
+primerUsuario.logInfo = function(){
+    console.log(this.nombre, this.edad, this.email);
+};
+
+// usar métodos de objeto
+primerUsuario.logInfo();
 primerUsuario.login();
 primerUsuario.logout();
