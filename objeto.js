@@ -1,10 +1,15 @@
 
-// definición de una clase
-// crear clase de usuario
+// añadir dos metodos (login y logout) a clase de usuario
 class Usuario {
     constructor(email, nombre) {
         this.email =  email;
         this.nombre = nombre;
+    }
+    login() {
+        console.log(this.email, 'acabe de iniciar sesión');
+    }
+    logout() {
+        console.log(this.email, 'acabe de cerrar sesión');
     }
 }
 
@@ -12,12 +17,9 @@ class Usuario {
 let primerUsuario = new Usuario('ryu@ninjasdelcodigo.pe', 'Ryu');
 let segundoUsuario = new Usuario('yoshi@ninjasdelcodigo.pe', 'Yoshi');
 
-// mostrar dos objetos de usuario a consola
-console.log(primerUsuario);
-console.log(segundoUsuario);
-
-// la palabra clave 'new' (nuevo)
-// - crea un nuevo objeto vacio
-// - setea el valor de 'this' a ser el del nuevo objeto vacio
-// - llama al método 'constructor'
+// invocar métodos de clase
+primerUsuario.login();
+segundoUsuario.login();
+segundoUsuario.logout();
+primerUsuario.logout();
  
