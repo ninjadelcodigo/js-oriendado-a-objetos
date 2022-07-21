@@ -1,9 +1,13 @@
-## JavaScript Orientado a Objetos #8 - Constructores (bajo de la capucha)
+## JavaScript Orientado a Objetos #8 - Prototipos
 
-* emular la clase Usuario usando una función constructora
-* no es necesario compiar los mismos métodos existentes de Usuario
-* invokar método login() de usuario 
+* usar consola para ingresar "._proto_" en alguna variable
+* añadir variable 'online'
+* añadir métodos login() y logout() a protipo de Usuario
+* invokar método login() y logout() de Usuario 
 
+# Nota
+
+* todo esto sucede en el background (por debajo) cuando se usa una Clase (Class)
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
