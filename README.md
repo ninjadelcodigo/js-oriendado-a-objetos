@@ -1,5 +1,6 @@
 ## JavaScript Orientado a Objetos #8 - Prototipos
 
+* ver prototipo de Usuario usando "console.log(primerUsuario);"
 * usar consola para ingresar "._proto_" en alguna variable
 * añadir variable 'online'
 * añadir métodos login() y logout() a protipo de Usuario

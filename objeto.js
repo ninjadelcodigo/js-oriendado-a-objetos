@@ -18,6 +18,8 @@ Usuario.prototype.logout = function() {
 
 // crear dos objetos de tipo Usuario
 let primerUsuario = new Usuario('ryu@ninjasdelcodigo.pe', 'Ryu');
+console.log(primerUsuario);
+
 let segundoUsuario = new Usuario('yoshi@ninjasdelcodigo.pe', 'Yoshi');
 
 // invokar método login() de usuario
