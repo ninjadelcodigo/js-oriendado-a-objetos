@@ -1,10 +1,8 @@
-## JavaScript Orientado a Objetos #7 - Herencia de Clases
+## JavaScript Orientado a Objetos #8 - Constructores (bajo de la capucha)
 
-* para crear clased Admin que contenga mismos métodos de Usuario pero uno más delete (eliminar)
+* emular la clase Usuario usando una función constructora
 * no es necesario compiar los mismos métodos existentes de Usuario
-* usar la palabra clave 'extends'
-* desarrollar método elimiarUsuario() usando filter
-* ejecutar Admin.eliminarUsuario()
+* invokar método login() de usuario 
 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
