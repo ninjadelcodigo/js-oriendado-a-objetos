@@ -1,4 +1,4 @@
-## JavaScript Orientado a Objetos #8 - Prototipos
+## JavaScript Orientado a Objetos #9 - Prototipos
 
 * ver prototipo de Usuario usando "console.log(primerUsuario);"
 * usar consola para ingresar "._proto_" en alguna variable
@@ -6,7 +6,7 @@
 * añadir métodos login() y logout() a protipo de Usuario
 * invokar método login() y logout() de Usuario 
 
-# Nota
+### Nota
 
 * todo esto sucede en el background (por debajo) cuando se usa una Clase (Class)
 
