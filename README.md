@@ -16,6 +16,6 @@
 * el usuario normal no puede eliminar un usuario porque eliminanUsuario() no existe en su prototipo
 
 
-**Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
+**Link al curso traducido en YouTube:** [JavaScript Orientado a Objetos](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
-**Link al curso original en YouTube:** [OObject Oriented JavaScript Tutorial #3 - Updating Properties](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7)
+**Link al curso original en YouTube:** [Object Oriented JavaScript Tutorial #3 - Updating Properties](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7)
