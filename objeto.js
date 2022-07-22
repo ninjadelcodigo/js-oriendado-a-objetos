@@ -16,11 +16,18 @@ Usuario.prototype.logout = function() {
     console.log(this.email, "ha cerrado su sesión");
 }
 
+function Admin(...args) {
+    Usuario.apply(this, args);
+}
+
 // crear dos objetos de tipo Usuario
 let primerUsuario = new Usuario('ryu@ninjasdelcodigo.pe', 'Ryu');
-console.log(primerUsuario);
-
 let segundoUsuario = new Usuario('yoshi@ninjasdelcodigo.pe', 'Yoshi');
+console.log(primerUsuario);
+console.log(segundoUsuario);
+
+// crear un administrador
+let administrador = new Admin('shaun@ninjasdelcodigo.pe', 'Shaun');
 
 // invokar método login() de usuario
 primerUsuario.login();
